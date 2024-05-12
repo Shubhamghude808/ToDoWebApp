@@ -55,7 +55,7 @@ Follow these steps to get the project up and running on your local machine:
 
 By default, the application uses a static local list for storing todos. If you want to use H2 database or MySQL, you can configure the datasource properties in the `application.properties` file located in `src/main/resources`.
 
-#### H2 Database
+## H2 Database
 
 ```properties
 spring.datasource.url=jdbc:h2:mem:testdb
@@ -65,13 +65,13 @@ spring.datasource.password=password
 spring.jpa.database-platform=org.hibernate.dialect.H2Dialect
 ```
 
-## Usage of H2 Database / Static list
+#### Usage of H2 Database / Static list
 - Log in using the default credentials:
 - Username: Shubham/Anish
 - Password: 1/anish
 - You can now manage your todos: create, read, update, and delete.
 
-#### MySQL Database
+## MySQL Database
 
 ```properties
 spring.datasource.url=jdbc:mysql://localhost:3306/todo_db
@@ -81,7 +81,7 @@ spring.datasource.password=password
 spring.jpa.database-platform=org.hibernate.dialect.MySQL8Dialect
 ```
 
-## Usage of MySQL Database
+#### Usage of MySQL Database
 - Navigate to http://localhost:3306 in your browser.
 - Log in using the default credentials:
 - Username: todos-user
