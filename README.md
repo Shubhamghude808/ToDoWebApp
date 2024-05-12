@@ -65,6 +65,12 @@ spring.datasource.password=password
 spring.jpa.database-platform=org.hibernate.dialect.H2Dialect
 ```
 
+## Usage of H2 Database / Static list
+- Log in using the default credentials:
+- Username: Shubham/Anish
+- Password: 1/anish
+- You can now manage your todos: create, read, update, and delete.
+
 #### MySQL Database
 
 ```properties
@@ -75,10 +81,12 @@ spring.datasource.password=password
 spring.jpa.database-platform=org.hibernate.dialect.MySQL8Dialect
 ```
 
-
 ## Usage of MySQL Database
 - Navigate to http://localhost:3306 in your browser.
 - Log in using the default credentials:
 - Username: todos-user
 - Password: dummytodos
 - You can now manage your todos: create, read, update, and delete.
+
+## License
+This project is licensed under the MIT License - see the LICENSE file for details.
