@@ -24,13 +24,13 @@ Follow these steps to get the project up and running on your local machine:
 1. Clone this repository:
 
     ```bash
-    git clone https://github.com/yourusername/todo-app.git
+    git clone https://github.com/Shubhamghude808/ToDoWebApp.git
     ```
 
 2. Navigate to the project directory:
 
     ```bash
-    cd todo-app
+    cd ToDoWebApp
     ```
 
 3. Build the project using Maven:
@@ -42,7 +42,7 @@ Follow these steps to get the project up and running on your local machine:
 4. Run the application:
 
     ```bash
-    java -jar target/todo-app-1.0.0.jar
+    java -jar target/ToDoWebApp-1.0.0.jar
     ```
 
 5. Access the application in your browser:
